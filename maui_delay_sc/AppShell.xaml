@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="maui_delay_sc.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:maui_delay_sc"
+    Shell.FlyoutBehavior="Disabled"
+    Title="maui_delay_sc">
+
+    
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"    
+        Route="MainPage"
+        />
+
+    <ShellContent 
+        Route="NewPage1" 
+        ContentTemplate="{DataTemplate local:NewPage1}" />
+
+
+
+
+</Shell>
